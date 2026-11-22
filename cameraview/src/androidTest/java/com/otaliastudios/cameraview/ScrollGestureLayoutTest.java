@@ -1,10 +1,10 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.content.Context;
 import android.support.test.espresso.ViewAction;
 import android.support.test.filters.SmallTest;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -90,3 +90,4 @@ public class ScrollGestureLayoutTest extends GestureLayoutTest<ScrollGestureLayo
 
 
 }
+

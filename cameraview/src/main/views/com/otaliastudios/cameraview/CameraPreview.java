@@ -1,7 +1,7 @@
 package com.otaliastudios.cameraview;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.Surface;
 import android.view.View;
 import android.view.ViewGroup;
@@ -171,3 +171,4 @@ abstract class CameraPreview<T extends View, Output> {
         return mCropping;
     }
 }
+

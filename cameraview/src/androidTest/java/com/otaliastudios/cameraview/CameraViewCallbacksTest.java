@@ -1,4 +1,4 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.PointF;
 import android.support.test.filters.MediumTest;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 import android.view.ViewGroup;
 
 import org.junit.After;
@@ -291,3 +291,4 @@ public class CameraViewCallbacksTest extends BaseTest {
         verify(processor, times(1)).process(mock);
     }
 }
+

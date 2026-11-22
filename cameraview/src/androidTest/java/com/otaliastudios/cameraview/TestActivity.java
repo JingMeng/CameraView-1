@@ -1,4 +1,4 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.app.Activity;
@@ -7,7 +7,7 @@ import android.content.Context;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.os.PersistableBundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -74,3 +74,4 @@ public class TestActivity extends Activity {
         content.requestLayout();
     }
 }
+

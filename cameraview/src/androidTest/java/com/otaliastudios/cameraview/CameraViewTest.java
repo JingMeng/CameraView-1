@@ -1,11 +1,11 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.content.Context;
 import android.location.Location;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.test.filters.MediumTest;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 import android.view.MotionEvent;
 import android.view.ViewGroup;
 
@@ -656,3 +656,4 @@ public class CameraViewTest extends BaseTest {
 
     // TODO: test permissions
 }
+

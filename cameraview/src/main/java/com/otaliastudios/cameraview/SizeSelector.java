@@ -1,6 +1,6 @@
 package com.otaliastudios.cameraview;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.util.List;
 
@@ -20,3 +20,4 @@ public interface SizeSelector {
     @NonNull
     List<Size> select(@NonNull List<Size> source);
 }
+

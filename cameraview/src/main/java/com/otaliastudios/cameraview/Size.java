@@ -1,6 +1,6 @@
 package com.otaliastudios.cameraview;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 /**
  * A simple class representing a size, with width and height values.
@@ -59,3 +59,4 @@ public class Size implements Comparable<Size> {
     }
 
 }
+

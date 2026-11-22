@@ -1,4 +1,4 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.annotation.TargetApi;
@@ -7,10 +7,10 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Color;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.platform.app.InstrumentationRegistry;
 import android.support.test.filters.SmallTest;
 import android.support.test.internal.runner.InstrumentationConnection;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -116,3 +116,4 @@ public class CameraUtilsTest extends BaseTest {
         assertTrue(other.getHeight() == height);
     }
 }
+

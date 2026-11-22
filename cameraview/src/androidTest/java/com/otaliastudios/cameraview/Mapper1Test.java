@@ -1,9 +1,9 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.hardware.Camera;
 import android.support.test.filters.SmallTest;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -58,3 +58,4 @@ public class Mapper1Test extends BaseTest {
         assertEquals(WhiteBalance.FLUORESCENT, mapper.unmapWhiteBalance(Camera.Parameters.WHITE_BALANCE_FLUORESCENT));
     }
 }
+

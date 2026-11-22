@@ -1,9 +1,9 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.content.Context;
 import android.support.test.filters.SmallTest;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 import android.view.ViewGroup;
 
 import org.junit.runner.RunWith;
@@ -41,3 +41,4 @@ public class TextureCameraPreviewTest extends PreviewTest {
         return preview.getView().isHardwareAccelerated();
     }
 }
+

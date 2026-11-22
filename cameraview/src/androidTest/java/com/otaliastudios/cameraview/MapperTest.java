@@ -1,10 +1,10 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.hardware.Camera;
 import android.media.MediaRecorder;
 import android.support.test.filters.SmallTest;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -34,3 +34,4 @@ public class MapperTest extends BaseTest {
         assertEquals(mapper.map(VideoCodec.H_264), MediaRecorder.VideoEncoder.H264);
     }
 }
+

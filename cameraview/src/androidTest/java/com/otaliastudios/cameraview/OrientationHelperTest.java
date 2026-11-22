@@ -1,8 +1,8 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.support.test.filters.SmallTest;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 import android.view.OrientationEventListener;
 
 import org.junit.After;
@@ -92,3 +92,4 @@ public class OrientationHelperTest extends BaseTest {
         verify(callback, times(1)).onDeviceOrientationChanged(270);
     }
 }
+

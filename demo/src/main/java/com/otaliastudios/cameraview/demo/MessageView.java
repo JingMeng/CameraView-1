@@ -1,8 +1,8 @@
-package com.otaliastudios.cameraview.demo;
+﻿package com.otaliastudios.cameraview.demo;
 
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -48,3 +48,4 @@ public class MessageView extends LinearLayout {
         this.message.setText(message);
     }
 }
+

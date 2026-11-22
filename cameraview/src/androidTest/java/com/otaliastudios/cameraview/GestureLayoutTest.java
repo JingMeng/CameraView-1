@@ -1,16 +1,16 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.annotation.TargetApi;
 import android.content.Context;
-import android.support.test.espresso.Espresso;
+import androidx.test.espresso.Espresso;
 import android.support.test.espresso.Root;
 import android.support.test.espresso.ViewAssertion;
 import android.support.test.espresso.ViewInteraction;
 import android.support.test.espresso.assertion.ViewAssertions;
 import android.support.test.espresso.matcher.RootMatchers;
 import android.support.test.espresso.matcher.ViewMatchers;
-import android.support.test.rule.ActivityTestRule;
+import androidx.test.rule.ActivityTestRule;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -20,7 +20,7 @@ import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Rule;
 
-import static android.support.test.espresso.Espresso.onView;
+import static androidx.test.espresso.Espresso.onView;
 import static org.hamcrest.Matchers.any;
 
 @TargetApi(17)
@@ -63,3 +63,4 @@ public abstract class GestureLayoutTest<T extends GestureLayout> extends BaseTes
                         Matchers.is(rule.getActivity().getWindow().getDecorView())));
     }
 }
+

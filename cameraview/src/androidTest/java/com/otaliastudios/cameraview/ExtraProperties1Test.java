@@ -1,11 +1,11 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.annotation.TargetApi;
 import android.hardware.Camera;
 import android.hardware.camera2.CameraCharacteristics;
 import android.support.test.filters.SmallTest;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 import android.util.SizeF;
 
 import org.junit.Test;
@@ -30,3 +30,4 @@ public class ExtraProperties1Test extends BaseTest {
     }
 
 }
+

@@ -1,4 +1,4 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.graphics.Color;
 import android.graphics.Rect;
 import android.graphics.YuvImage;
 import android.support.test.filters.SmallTest;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -74,3 +74,4 @@ public class CropHelperTest extends BaseTest {
         }
     }
 }
+

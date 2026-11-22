@@ -1,4 +1,4 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.support.test.espresso.action.GeneralLocation;
 import android.support.test.espresso.action.Press;
 import android.support.test.espresso.action.Tap;
 import android.support.test.filters.SmallTest;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 import android.view.InputDevice;
 import android.view.MotionEvent;
 
@@ -75,3 +75,4 @@ public class TapGestureLayoutTest extends GestureLayoutTest<TapGestureLayout> {
         assertEquals(layout.getPoints()[0].y, (size.getHeight() / 2f), 1f);
     }
 }
+

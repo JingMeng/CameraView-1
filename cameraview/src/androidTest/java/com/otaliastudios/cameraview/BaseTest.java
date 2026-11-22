@@ -1,4 +1,4 @@
-package com.otaliastudios.cameraview;
+﻿package com.otaliastudios.cameraview;
 
 
 import android.annotation.SuppressLint;
@@ -11,10 +11,10 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.PowerManager;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.platform.app.InstrumentationRegistry;
 import android.support.test.annotation.UiThreadTest;
 import android.support.test.espresso.core.internal.deps.guava.collect.ObjectArrays;
-import android.support.test.rule.ActivityTestRule;
+import androidx.test.rule.ActivityTestRule;
 import android.view.View;
 
 import org.junit.After;
@@ -171,3 +171,4 @@ public class BaseTest {
         });
     }
 }
+
